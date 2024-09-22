@@ -44,7 +44,7 @@ A **Password Manager** Android app that securely stores and autofills passwords 
 
 ## Screenshots
 
-![Screenshot](https://www.dropbox.com/scl/fi/xjg1370yx9xx94kxranki/pm7.png?rlkey=x8a3q8evk9t1whd3di29aspnw&st=jlbtto7s&dl=1)
+![Screenshot](images/pm1.png)
 
 ![Screenshot](https://www.dropbox.com/scl/fi/m5lacgj8coivq403nmd36/pm3.jpg?rlkey=gx0efk8gc72c4wqvb5frjn8ra&st=poo2slgg&dl=1)
 
