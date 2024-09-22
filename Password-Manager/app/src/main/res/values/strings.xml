@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Encrypt Autofill</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="vertical_ellipsis">&#8942;</string>
+	<string name="access_desc">Encrypt Autofill will help you fill your account\'s email and password on the websites directly</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+		<item name="android:windowLightStatusBar">true</item>
+		<item name="android:statusBarColor">#FFFFFF</item>
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:navigationBarColor">#FFFFFF</item>
+		<item name="android:colorAccent">@color/lightBlue</item>
+		<item name="android:fontFamily">@drawable/varela_round</item>
+		<item name="android:textCursorDrawable">@null</item>
+	</style>
+	
+	<style name="PassTheme" parent="@android:style/Theme.Holo.Light">
+		<item name="android:windowLightStatusBar">false</item>
+		<item name="android:statusBarColor">@color/lightBlue</item>
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:navigationBarColor">#FFFFFF</item>
+		<item name="android:colorAccent">@color/lightBlue</item>
+		<item name="android:fontFamily">@drawable/varela_round</item>
+		<item name="android:textCursorDrawable">@null</item>
+	</style>
+	
+	<style name="MyAlertDialogTheme">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowTitleStyle">@style/MyAlertDialogTitle</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+		<item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+		<!--<item name="android:textAppearanceMedium">@style/MyAlertTextAppearance</item>-->
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:buttonBarStyle">@android:style/Holo.Light.ButtonBar.AlertDialog</item>
+		<item name="android:buttonBarButtonStyle">?android:attr/borderlessButtonStyle</item>
+	</style>
+
+	<style name="MyAlertDialogTitle">
+		<item name="android:maxLines">1</item>
+		<item name="android:scrollHorizontally">true</item>
+	</style>
+
+	<style name="MyAlertTextAppearance">
+		<!-- Set text size and color of title and message here -->
+		<!--<item name="android:textSize">10</item>-->
+		<item name="android:textColor">@color/black</item>
+	</style>
+	
+	<style name="more_menu_animation">
+        <item name="android:windowEnterAnimation">@anim/more_menu_enter</item>
+        <item name="android:windowExitAnimation">@anim/more_menu_exit</item>
+    </style>
+</resources>
