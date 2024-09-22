@@ -46,17 +46,17 @@ A **Password Manager** Android app that securely stores and autofills passwords 
 
 ![Screenshot](images/pm1.png)
 
-![Screenshot](https://www.dropbox.com/scl/fi/m5lacgj8coivq403nmd36/pm3.jpg?rlkey=gx0efk8gc72c4wqvb5frjn8ra&st=poo2slgg&dl=1)
+![Screenshot](images/pm2.png)
 
-![Screenshot](https://www.dropbox.com/scl/fi/4gvv7viiq4zxt7a69n7vr/pm2.jpg?rlkey=vwhc035c0fx72ot9awqy2tfih&st=5epxij0g&dl=1)
+![Screenshot](images/pm3.png)
 
-![Screenshot](https://www.dropbox.com/scl/fi/gcwyvbkgdate127e35fd1/pm1.jpg?rlkey=u1gr8a3s9jci5mwyrxlkrd03j&st=yyboxlnw&dl=1)
+![Screenshot](images/pm4.png)
 
-![Screenshot](https://www.dropbox.com/scl/fi/wv70ko9bvt0mxs30jalb4/pm6.png?rlkey=0iuwsvwb6bx8zfdxt0ohu0vbv&st=4y7tkzzf&dl=1)
+![Screenshot](images/pm5.png)
 
-![Screenshot](https://www.dropbox.com/scl/fi/3xfq195s0q5am40ntpj75/pm5.png?rlkey=1ygmojsc0l3vo3rlzmniff3t4&st=pi3zl08e&dl=1)
+![Screenshot](images/pm6.png)
 
-![Screenshot](https://www.dropbox.com/scl/fi/qghaz8g35k8m2nzrwyzo0/pm4.png?rlkey=wfak2zzi0iug19ykau6pvi4ab&st=kb3yulai&dl=1)
+![Screenshot](images/pm7.png)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
