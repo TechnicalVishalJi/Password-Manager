@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="30dp"
+		android:foreground="@drawable/ripple"
+		android:onClick="editAccount"
+		android:gravity="center_vertical">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:gravity="center"
+			android:onClick="copyPasswordByLogo"
+			android:foreground="@drawable/ripple"
+			android:layout_centerVertical="true">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:id="@+id/accountoptionLinearLayout1"
+				android:gravity="center"
+				android:background="@drawable/logo_icon_bg_circle">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="V"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:gravity="center"
+					android:visibility="visible"
+					android:id="@+id/logoText"
+					android:textColor="#FFFFFF"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:background="@drawable/more_vert"
+			android:layout_marginRight="10dp"
+			android:onClick="showMoreOptionsIn"
+			android:id="@+id/accountoptionLinearLayout2">
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="60dp"
+			android:layout_centerVertical="true"
+			android:id="@+id/accountsoptionLinearLayout2"
+			android:layout_toLeftOf="@id/accountoptionLinearLayout2"
+			android:layout_marginRight="20dp">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="None"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000"
+				android:id="@+id/accountoptionTextView1"
+				android:ellipsize="marquee"
+				android:singleLine="true"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:id="@+id/hiddenPassword"
+			android:layout_toLeftOf="@id/accountoptionLinearLayout2"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:id="@+id/hiddenWebsite"
+			android:layout_toLeftOf="@id/accountoptionLinearLayout2"
+			android:layout_below="@id/hiddenPassword"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:layout_below="@id/hiddenWebsite"
+			android:layout_toLeftOf="@id/accountoptionLinearLayout2"
+			android:id="@+id/optionId"
+			android:visibility="gone"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:layout_below="@id/hiddenWebsite"
+			android:layout_toLeftOf="@id/accountoptionLinearLayout2"
+			android:id="@+id/hiddenWebName"
+			android:visibility="invisible"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

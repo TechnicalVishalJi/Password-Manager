@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Your username and password for this site will be saved in Encrypt Autofill."
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/customdescTextView3"
+		android:layout_marginTop="5dp"
+		android:textColor="#373737"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_marginTop="25dp">
+
+		<ImageView
+			android:src="@drawable/globe"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:layout_marginRight="10dp"
+			android:id="@+id/customdescImageView1"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Medium Text"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:id="@+id/customdescTextView1"
+				android:layout_marginTop="0dp"
+				android:textColor="#373737"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="••••••••••"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:id="@+id/customdescTextView2"
+				android:textSize="31sp"
+				android:layout_marginTop="-10dp"
+				android:layout_marginBottom="-10dp"
+				android:textColor="#373737"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:text="Small Text"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:id="@+id/customdescinvisible"
+		android:visibility="gone"/>
+
+
+</LinearLayout>
+

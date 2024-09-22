@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="15dp"
+		android:paddingLeft="30dp"
+		android:paddingRight="30dp"
+		android:paddingTop="15dp"
+		android:gravity="center_vertical">
+
+		<EditText
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:layout_height="45dp"
+			android:singleLine="true"
+			android:hint="Search"
+			android:background="@drawable/edittext"
+			android:paddingLeft="20dp"
+			android:id="@+id/searchBar"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="20dp"
+			android:layout_height="20dp"
+			android:layout_marginLeft="-35dp"
+			android:background="@drawable/search_btn"/>
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="5dp">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/accountsView">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="No Accounts!"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="40dp"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFFFFF">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/mainLinearLayout1"
+		android:paddingTop="15dp"
+		android:paddingLeft="15dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Encrypt "
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="@color/lightBlue"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Autofill"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="@color/black"/>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/mainLinearLayout2"
+		android:padding="5dp">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_height="55dp"
+			android:layout_width="55dp"
+			android:gravity="center"
+			android:layout_marginLeft="10dp"
+			android:onClick="homeTab">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:background="@drawable/widgets_icon"
+				android:id="@+id/homeButton"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="55dp"
+			android:layout_height="55dp"
+			android:gravity="center"
+			android:onClick="settingsTab"
+			android:layout_marginLeft="140dp">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:background="@drawable/settings_icon"
+				android:id="@+id/settingsButton"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="55dp"
+			android:layout_height="55dp"
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"
+			android:onClick="passGen"
+			android:layout_marginLeft="75dp">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:background="@drawable/pass_gen_icon"
+				android:id="@+id/passGenTabBtn"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/mainLinearLayout1"
+		android:layout_above="@id/mainLinearLayout2"
+		android:id="@+id/tabArea">
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_above="@id/mainLinearLayout2"
+		android:background="@color/gray"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="40dp"
+		android:layout_marginRight="25dp"
+		android:foreground="@drawable/add_icon"
+		android:background="@drawable/add_icon_bg"
+		android:elevation="10dp"
+		android:id="@+id/addButton"
+		android:onClick="addAccount"/>
+
+</RelativeLayout>
+

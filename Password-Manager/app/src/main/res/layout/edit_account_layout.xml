@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingRight="15dp"
+		android:paddingLeft="15dp"
+		android:paddingBottom="10dp"
+		android:paddingTop="10dp"
+		android:layout_marginTop="20dp"
+		android:background="@color/lightBlue">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Edit Account"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="#FFFFFF"
+			android:layout_centerVertical="true"
+			android:id="@+id/heading"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="20dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Username / email:"
+			android:textColor="@color/lightBlue"
+			android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+		<EditText
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:id="@+id/email"
+			android:singleLine="true"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Email can't be empty"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="@color/red"
+			android:id="@+id/emailError"
+			android:visibility="gone"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="20dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Password"
+			android:textColor="@color/lightBlue"
+			android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+		<RelativeLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:layout_width="match_parent"
+				android:inputType="textPassword"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:id="@+id/password"
+				android:singleLine="true"
+				android:imeOptions="actionDone"
+				android:paddingRight="60dp"/>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:id="@+id/editaccountlayoutLinearLayout2"
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true"
+				android:onClick="showHidePassword"
+				android:gravity="center">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="20dp"
+					android:layout_height="20dp"
+					android:layout_gravity="center"
+					android:background="@drawable/visibility"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_centerVertical="true"
+				android:layout_toLeftOf="@id/editaccountlayoutLinearLayout2"
+				android:onClick="copyPassword"
+				android:gravity="center">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="20dp"
+					android:layout_height="20dp"
+					android:background="@drawable/copy_icon"
+					android:id="@+id/editaccountlayoutLinearLayout3"/>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Password can't be empty"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="@color/red"
+			android:id="@+id/passwordError"
+			android:visibility="gone"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_alignParentRight="true"
+			android:gravity="center"
+			android:foreground="@drawable/ripple"
+			android:padding="5dp"
+			android:onClick="saveEdits"
+			android:background="@drawable/set_password_btn_bg"
+			android:layout_marginTop="25dp"
+			android:id="@+id/editaccountlayoutLinearLayout1">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="SAVE"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#FFFFFF"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text"
+		android:id="@+id/previousWebsite"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text"
+		android:id="@+id/previousEmail"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text"
+		android:id="@+id/previousWebName"
+		android:visibility="invisible"/>
+
+</LinearLayout>
+
