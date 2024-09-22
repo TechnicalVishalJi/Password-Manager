@@ -46,11 +46,11 @@ A **Password Manager** Android app that securely stores and autofills passwords 
 
 ![Screenshot](images/pm1.png)
 
-![Screenshot](images/pm2.png)
+![Screenshot](images/pm2.jpg)
 
-![Screenshot](images/pm3.png)
+![Screenshot](images/pm3.jpg)
 
-![Screenshot](images/pm4.png)
+![Screenshot](images/pm4.jpg)
 
 ![Screenshot](images/pm5.png)
 
