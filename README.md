@@ -35,7 +35,7 @@ A **Password Manager** Android app that securely stores and autofills passwords 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Password-Manager.git
+   git clone https://github.com/TechnicalVishalJi/Password-Manager.git
    ```
 2. Open the project in AIDE or Android Studio.
 
